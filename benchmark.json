@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "name": "proof-golf-praxis-lines-100",
+  "tracks": [
+    {
+      "name": "lines",
+      "description": "Substitute nodes of the Praxis paper DAG (ePrint 2026/2971) so that every demand on the outgoing edges is still met. The score is the number of lines the paper prints with the substitution applied (statements and proofs as typeset, markup free), calibrated against XeLaTeX; lower is better. The paper as published prints 3572 lines. Only an improvement of more than 100 lines on the record (3525) is accepted: at most 3424 lines. One inference per sentence, no new notation, no layout commands, and blobs are background only (a proof may not use a claim blob-audit.md lists as unverified without proving it).",
+      "category": "math",
+      "mode": "pareto",
+      "promotionMode": "automatic",
+      "direction": "-",
+      "objectives": [
+        {
+          "name": "lines",
+          "direction": "-"
+        }
+      ],
+      "paretoPolicies": {
+        "scoring": {
+          "version": "paper-dag-lines-v1"
+        },
+        "validity": {
+          "version": "paper-dag-substitution-lines-v1"
+        }
+      },
+      "editablePaths": [
+        "submission"
+      ],
+      "submissionAdmission": {
+        "version": 1,
+        "submissionReferencesEnabled": false
+      },
+      "setupCommand": [
+        "llm-verifier",
+        "intake",
+        "--root",
+        ".",
+        "--out",
+        ".yukon/work/intake.json"
+      ],
+      "benchmarkCommand": [
+        "llm-verifier",
+        "finalize",
+        "--intake",
+        ".yukon/work/intake.json",
+        "--initial",
+        ".yukon/work/initial.json",
+        "--initial-review",
+        ".yukon/work/review.json",
+        "--score",
+        ".yukon/score.json",
+        "--dossier",
+        ".yukon/dossier.json"
+      ],
+      "scorePath": ".yukon/score.json",
+      "maxSubmissionBytes": 786432,
+      "runner": {
+        "provider": "github-actions",
+        "workflow": "benchmark.yml",
+        "scoreArtifactName": "benchmark-score",
+        "maxConcurrentWorkflows": 2
+      }
+    }
+  ]
+}
