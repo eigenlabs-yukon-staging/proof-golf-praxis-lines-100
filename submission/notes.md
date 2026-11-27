@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four targets remain. The asymptotic-cost target keeps its original statement and has a direct count of ciphertext size, field work, group work and expected search. The proof derives the search bound from the honest-combination identities and the sampler bounds. The extraction replacement also supplies the sampler range and moment bounds.
