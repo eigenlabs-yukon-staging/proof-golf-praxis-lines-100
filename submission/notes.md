@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four original targets remain. The extractor proof bounds the trimming tail and computes the dimension of the projected image by rank-nullity on the difference span. It counts image points by triangulation, computes the extension lattice by Hermite reduction, and derives the half-bound from the comparison run. The QAP replacement supplies both division criteria and their quotient bounds.
