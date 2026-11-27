@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four original targets remain. The original trimming lemma supplies its density-loss bound. The replacement proves the search range and both second-moment bounds from the two samplers. The extractor proof uses the projected-kernel quotient for the image count and computes the extension lattice by Hermite reduction. The QAP proof uses subgroup averaging and a polynomial root count to identify allowed remainders.
