@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four original targets remain. The original trimming lemma supplies its density-loss bound under the full (I1)–(I6) conditions. The replacement gives both search moment bounds and the support bound. The reduction time proof counts evaluation and differentiation on the composed exponent circuit. The extractor uses projected integer geometry and Hermite lifting, and the QAP proof uses subgroup averaging.
