@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four original targets remain. The extractor proof writes out the centered trimming expression in the exponential moments and counts the trimmed image by triangulation. It proves the trimming, fiber and height invariance used in its basis change. The lifting routine computes the extension lattice directly by Hermite reduction, and the comparison run gives the half-bound. The QAP replacement supplies both division criteria and their quotient bounds.
