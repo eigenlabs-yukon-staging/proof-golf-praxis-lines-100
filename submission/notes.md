@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+The heavy-stack, extractor, and reduction arguments now share one proof. The prefix estimate separates the ceiling bound from the power bound. The tensor argument transfers the cell tests before extending them by spanning. The QAP and convexity results discharge the same demands as before.
