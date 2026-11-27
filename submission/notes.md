@@ -1,5 +1,1 @@
-# Starting submission: the paper as published
-
-This is the empty substitution. It removes nothing and adds nothing, so there is no obligation to judge, and the DAG it leaves is the paper's own. Its score is the line count of that DAG.
-
-To submit a cut, replace `substitution.json` with your substitution, run `python3 tools/pack.py` to rewrite `submission.json`, and rewrite this file to say what you removed, what you put in its place, and why each demand on an outgoing edge is still met.
+All four original targets remain. The extractor proof bounds the coordinate exponential moment by geometric summation and integrates the resulting projection bound against an independent Gaussian. It proves the trimming tail, treats the modular base densities separately, and lifts the modular normal in Smith coordinates. The original half-bound supplies its original outgoing demand. The QAP replacement supplies both division criteria and their quotient bounds.
